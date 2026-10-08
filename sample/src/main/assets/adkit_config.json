@@ -1,0 +1,9 @@
+{
+  "enabled": true,
+  "global_gap_s": 15,
+  "placements": {
+    "tool_click": { "every_n": 3, "cooldown_s": 30 },
+    "home_banner": { "banner": "collapsible_bottom" },
+    "settings_native": { "format": "native", "style": "small", "units": ["ca-app-pub-0000000000000000/1000000099"] }
+  }
+}

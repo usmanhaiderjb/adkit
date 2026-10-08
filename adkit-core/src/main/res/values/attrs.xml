@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="adPlacement" format="string" />
+    <attr name="adShowSkeleton" format="boolean" />
+    <attr name="adAutoLoad" format="boolean" />
+
+    <declare-styleable name="AdBannerView">
+        <attr name="adPlacement" />
+        <!-- adaptive | large_adaptive | inline_adaptive | collapsible_top | collapsible_bottom | banner | large_banner | mrec -->
+        <attr name="adBannerType" format="string" />
+        <attr name="adShowSkeleton" />
+        <attr name="adAutoLoad" />
+    </declare-styleable>
+
+    <declare-styleable name="AdNativeView">
+        <attr name="adPlacement" />
+        <!-- banner | small | medium | large | large_adjusted | fullscreen -->
+        <attr name="adStyle" format="string" />
+        <attr name="adLayout" format="reference" />
+        <attr name="adShowSkeleton" />
+        <attr name="adAutoLoad" />
+        <attr name="adRetainKey" format="string" />
+        <attr name="adCtaColor" format="color" />
+    </declare-styleable>
+</resources>

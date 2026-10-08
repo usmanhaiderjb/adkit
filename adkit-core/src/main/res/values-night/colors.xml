@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="adkit_surface">#FF1F2023</color>
+    <color name="adkit_surface_variant">#FF2A2C30</color>
+    <color name="adkit_text_primary">#FFE8EAED</color>
+    <color name="adkit_text_secondary">#FFA8ACB2</color>
+    <color name="adkit_cta">#FF8AB4F8</color>
+    <color name="adkit_cta_text">#FF0B1A33</color>
+    <color name="adkit_skeleton">#FF33363B</color>
+    <color name="adkit_cover">#FF121316</color>
+</resources>

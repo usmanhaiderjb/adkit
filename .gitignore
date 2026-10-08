@@ -1,0 +1,14 @@
+.gradle/
+build/
+local.properties
+.idea/
+*.iml
+.kotlin/
+captures/
+.DS_Store
+
+# Per-app audit notes: client app names, package names and publisher ids. Keep local.
+docs/analysis/
+
+# Marketing drafts (LinkedIn post, image). Not part of the library.
+docs/linkedin/

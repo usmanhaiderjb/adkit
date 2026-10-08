@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="adkit_loading_ad">Loading ad…</string>
+    <string name="adkit_ad_badge">Ad</string>
+    <string name="adkit_skip_in">Skip in %1$d</string>
+    <string name="adkit_close">Close</string>
+    <string name="adkit_welcome_back">Welcome back</string>
+    <string name="adkit_exit_title">Exit app?</string>
+    <string name="adkit_exit_yes">Exit</string>
+    <string name="adkit_exit_no">Cancel</string>
+</resources>

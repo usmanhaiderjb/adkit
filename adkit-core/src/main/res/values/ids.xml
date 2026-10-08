@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Native asset ids. Use these in custom layouts (app:adLayout). -->
+    <item name="ad_headline" type="id" />
+    <item name="ad_body" type="id" />
+    <item name="ad_call_to_action" type="id" />
+    <item name="ad_app_icon" type="id" />
+    <item name="ad_media" type="id" />
+    <item name="ad_advertiser" type="id" />
+    <item name="ad_stars" type="id" />
+    <item name="ad_price" type="id" />
+    <item name="ad_store" type="id" />
+    <item name="ad_badge" type="id" />
+    <item name="adkit_tag_anim" type="id" />
+</resources>

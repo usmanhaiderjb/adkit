@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AdKit.FullScreen" parent="@android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/adkit_surface</item>
+        <item name="android:windowFullscreen">false</item>
+    </style>
+
+    <style name="AdKit.Badge" parent="">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/adkit_badge_bg</item>
+        <item name="android:paddingStart">5dp</item>
+        <item name="android:paddingEnd">5dp</item>
+        <item name="android:text">@string/adkit_ad_badge</item>
+        <item name="android:textColor">@color/adkit_badge_text</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AdKit.Headline" parent="">
+        <item name="android:textColor">@color/adkit_text_primary</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="AdKit.Body" parent="">
+        <item name="android:textColor">@color/adkit_text_secondary</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="AdKit.Cta" parent="">
+        <item name="android:background">@drawable/adkit_cta_bg</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/adkit_cta_text</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+    </style>
+</resources>

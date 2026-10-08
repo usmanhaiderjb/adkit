@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:text="Tap a button" />
+
+            <Button android:id="@+id/btn_interstitial" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Interstitial (every 3rd tap)" />
+            <Button android:id="@+id/btn_rewarded" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Rewarded unlock (falls back to rewarded interstitial)" />
+            <Button android:id="@+id/btn_fullscreen_native" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Full-screen native" />
+            <Button android:id="@+id/btn_list" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Natives in a list" />
+            <Button android:id="@+id/btn_compose" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Compose screen" />
+            <Button android:id="@+id/btn_share" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Share (no app open on return)" />
+            <Button android:id="@+id/btn_premium" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Toggle premium" />
+            <Button android:id="@+id/btn_privacy" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Privacy options" />
+            <Button android:id="@+id/btn_inspector" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Ad Inspector" />
+
+            <!-- Zero-code native: preloaded during splash, handed over here. -->
+            <dev.adkit.AdNativeView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                app:adPlacement="language"
+                app:adStyle="medium" />
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Zero-code collapsible banner. -->
+    <dev.adkit.AdBannerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:adPlacement="home_banner" />
+</LinearLayout>

@@ -1,0 +1,5 @@
+jdk:
+  - openjdk21
+install:
+  - ./gradlew :adkit-core:publishToMavenLocal :adkit-compose:publishToMavenLocal :adkit-firebase:publishToMavenLocal -x test
+  - ./gradlew -p adkit-gradle-plugin publishToMavenLocal -x test

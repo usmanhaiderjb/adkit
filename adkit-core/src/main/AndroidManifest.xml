@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application>
+        <activity
+            android:name="dev.adkit.FullScreenNativeActivity"
+            android:configChanges="orientation|screenSize|screenLayout|smallestScreenSize|keyboard|keyboardHidden|uiMode|locale|layoutDirection|density|fontScale"
+            android:exported="false"
+            android:theme="@style/AdKit.FullScreen" />
+    </application>
+</manifest>
